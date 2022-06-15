@@ -1,0 +1,23 @@
+.image-list {
+    margin-right: 30px;
+    position: relative;
+}
+
+.image-thumb {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    padding-top: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    opacity: 1;
+}
+
+.image-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    color: #ffffff;
+}

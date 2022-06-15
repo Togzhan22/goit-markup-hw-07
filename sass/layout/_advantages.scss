@@ -1,0 +1,50 @@
+.section-advantage {
+    padding-top: 94px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list {
+    margin-right: 30px;
+    width: 270px;
+}
+
+.thumb {
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.feature .image-list:last-child {
+    margin-right: 0;
+}
+
+.text {
+    color: var(--title-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}

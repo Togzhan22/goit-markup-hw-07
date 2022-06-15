@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filters-link {
+    text-align: center;
+}
+
+.filters-btn {
+    margin-right: 8px;
+}
+
+.filters .filters-btn:last-child {
+    margin-right: 0;
+}
