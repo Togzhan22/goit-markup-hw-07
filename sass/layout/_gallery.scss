@@ -1,9 +1,29 @@
-.image-list {
-    margin-right: 30px;
-    position: relative;
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.image-thumb {
+.image-section {
+    display: flex;
+    padding: 0;
+}
+
+.gallery-section {
+    margin: 0;
+}
+
+.image-section__list {
+    margin-right: 30px;
+    position: relative;
+    .image-section &:last-child {
+        margin-right: 0;
+    }
+}
+
+.image-section__thumb {
     width: 370px;
     height: 70px;
     position: absolute;
@@ -14,7 +34,7 @@
     opacity: 1;
 }
 
-.image-title {
+.image-section__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

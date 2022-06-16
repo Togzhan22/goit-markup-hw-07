@@ -1,18 +1,24 @@
+.title_theme_light {
+    background-color: var(--secondary-text-color-theme-light);
+}
+
 .employees {
     display: flex;
     padding: 0;
+}
+
+.employees-section {
     margin: 0;
 }
 
-.employees-photo {
+.employees__photo {
     margin-right: 30px;
+    .employees &:last-child {
+        margin-right: 0;
+    }
 }
 
-.employees .employees-photo:last-child {
-    margin-right: 0;
-}
-
-.employees-content-wrapper {
+.employees__content-wrapper {
     padding: 30px 10px;
     background-color: #FFFFFF;
     border-radius: 4px;
@@ -20,7 +26,7 @@
     border-top: none;
 }
 
-.employees-name {
+.employees__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -28,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.employees-position {
+.employees__position {
     color: var(--title-color);
     font-weight: 400;
     font-size: 16px;
