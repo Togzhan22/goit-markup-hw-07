@@ -1,12 +1,10 @@
 :root {
     --primary-text-color: #212121;
     --title-color: #757575;
+    --accent-color: #2196F3;
     --primary-text-color-theme-light: #E5E5E5;
     --secondary-text-color-theme-light: #F5F4FA;
     --primary-text-color-theme-dark: #2F303A;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
 }
